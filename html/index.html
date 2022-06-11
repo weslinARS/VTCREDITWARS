@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VALIDADOR TRAJETA DE CREDITO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/custom.css">
 </head>
+
 <body>
-    
+    <div class="main">
+        <div class="titulo">
+            <h2>Validador de tarjeta de crédito</h2>
+            <img src="/img/S.svg" alt="">
+        </div>
+        
+        <img src="/img/chip.svg" alt="" id="chip">
+        <form action="post">
+            <label for="form__numTarjeta">Ingrese el numero de su tarjeta</label> <br>
+            <input type="text" name = "form__numTarjeta" placeholder="XXXX-XXXX-XXXX-XXX"  id="numTarjeta">
+            <input type="submit" value="Validar" class="boton">
+        </form>
+    </div>
 </body>
+
 </html>

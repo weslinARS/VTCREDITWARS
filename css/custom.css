@@ -1,0 +1,74 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: #FEFBE7; }
+
+body {
+  background-color: #1f2633;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; }
+
+.main {
+  background: #1f2633;
+  background: linear-gradient(90deg, #1f2633 0%, #3a2d36 18%, rgba(255, 97, 72, 0.561281337) 100%);
+  padding: 10px;
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2); }
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+
+.titulo img {
+  width: 70px; }
+
+#numTarjeta {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  background: none;
+  width: 50%;
+  font-size: 25px;
+  margin-top: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px; }
+
+#chip {
+  width: 70px;
+  padding: 5px; }
+
+.main form {
+  display: flex;
+  flex-direction: column; }
+
+.boton {
+  width: 20%;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 50px;
+  background-color: #FF6148;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 70%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2); }
+
+/*# sourceMappingURL=custom.css.map */
